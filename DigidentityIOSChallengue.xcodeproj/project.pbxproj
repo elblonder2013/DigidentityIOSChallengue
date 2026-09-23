@@ -29,19 +29,58 @@
 		AAAB25703063D32700E5A8F6 /* DigidentityIOSChallengueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigidentityIOSChallengueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AAAB25903063D32700E5A8F6 /* Exceptions for "DigidentityIOSChallengue" folder in "DigidentityIOSChallengue" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Data/.gitkeep",
+				"DI/.gitkeep",
+				"Domain/.gitkeep",
+				"Infrastructure/.gitkeep",
+				"Presentation/.gitkeep",
+			);
+			target = AAAB25583063D32500E5A8F6 /* DigidentityIOSChallengue */;
+		};
+		AAAB25913063D32700E5A8F6 /* Exceptions for "DigidentityIOSChallengueTests" folder in "DigidentityIOSChallengueTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Data/.gitkeep",
+				"Domain/.gitkeep",
+				"Presentation/.gitkeep",
+			);
+			target = AAAB25653063D32700E5A8F6 /* DigidentityIOSChallengueTests */;
+		};
+		AAAB25923063D32700E5A8F6 /* Exceptions for "DigidentityIOSChallengueUITests" folder in "DigidentityIOSChallengueUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				".gitkeep",
+			);
+			target = AAAB256F3063D32700E5A8F6 /* DigidentityIOSChallengueUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		AAAB255B3063D32500E5A8F6 /* DigidentityIOSChallengue */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AAAB25903063D32700E5A8F6 /* Exceptions for "DigidentityIOSChallengue" folder in "DigidentityIOSChallengue" target */,
+			);
 			path = DigidentityIOSChallengue;
 			sourceTree = "<group>";
 		};
 		AAAB25693063D32700E5A8F6 /* DigidentityIOSChallengueTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AAAB25913063D32700E5A8F6 /* Exceptions for "DigidentityIOSChallengueTests" folder in "DigidentityIOSChallengueTests" target */,
+			);
 			path = DigidentityIOSChallengueTests;
 			sourceTree = "<group>";
 		};
 		AAAB25733063D32700E5A8F6 /* DigidentityIOSChallengueUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AAAB25923063D32700E5A8F6 /* Exceptions for "DigidentityIOSChallengueUITests" folder in "DigidentityIOSChallengueUITests" target */,
+			);
 			path = DigidentityIOSChallengueUITests;
 			sourceTree = "<group>";
 		};
@@ -385,10 +424,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -416,10 +454,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -439,7 +476,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigidentityIOSChallengue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DigidentityIOSChallengue";
 			};
@@ -460,7 +497,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigidentityIOSChallengue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DigidentityIOSChallengue";
 			};
@@ -479,7 +516,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = DigidentityIOSChallengue;
 			};
@@ -498,7 +535,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = DigidentityIOSChallengue;
 			};
