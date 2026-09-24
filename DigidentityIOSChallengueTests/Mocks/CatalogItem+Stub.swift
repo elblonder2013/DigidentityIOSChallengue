@@ -20,3 +20,9 @@ extension CatalogItem {
 }
 
 struct TestError: Error, Equatable {}
+
+extension CatalogItemDTO {
+    static func stub(id: String, text: String = "Item", confidence: Double = 0.5) -> CatalogItemDTO {
+        CatalogItemDTO(id: id, text: text, image: "https://example.com/\(id).png", confidence: confidence)
+    }
+}
