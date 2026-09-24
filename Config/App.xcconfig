@@ -1,0 +1,12 @@
+//
+//  App.xcconfig
+//  DigidentityIOSChallengue
+//
+//  Created by Alexei on 24/09/2026.
+//
+
+// "//" starts a comment in xcconfig files, so the slashes are split with $().
+API_BASE_URL = https:/$()/api.mock.marlove.net
+
+// Provides API_TOKEN. Not committed: copy Secrets.example.xcconfig to Secrets.xcconfig and fill it in.
+#include? "Secrets.xcconfig"

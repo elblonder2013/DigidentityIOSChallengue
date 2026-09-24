@@ -27,6 +27,9 @@
 		AAAB25593063D32500E5A8F6 /* DigidentityIOSChallengue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigidentityIOSChallengue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAAB25663063D32700E5A8F6 /* DigidentityIOSChallengueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigidentityIOSChallengueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAAB25703063D32700E5A8F6 /* DigidentityIOSChallengueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigidentityIOSChallengueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAAB25A03063D32700E5A8F6 /* App.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = App.xcconfig; sourceTree = "<group>"; };
+		AAAB25A13063D32700E5A8F6 /* Secrets.example.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.example.xcconfig; sourceTree = "<group>"; };
+		AAAB25A23063D32700E5A8F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -35,7 +38,6 @@
 			membershipExceptions = (
 				Data/.gitkeep,
 				DI/.gitkeep,
-				Infrastructure/.gitkeep,
 				Presentation/.gitkeep,
 			);
 			target = AAAB25583063D32500E5A8F6 /* DigidentityIOSChallengue */;
@@ -106,6 +108,7 @@
 		AAAB25503063D32500E5A8F6 = {
 			isa = PBXGroup;
 			children = (
+				AAAB25A33063D32700E5A8F6 /* Config */,
 				AAAB255B3063D32500E5A8F6 /* DigidentityIOSChallengue */,
 				AAAB25693063D32700E5A8F6 /* DigidentityIOSChallengueTests */,
 				AAAB25733063D32700E5A8F6 /* DigidentityIOSChallengueUITests */,
@@ -121,6 +124,16 @@
 				AAAB25703063D32700E5A8F6 /* DigidentityIOSChallengueUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AAAB25A33063D32700E5A8F6 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				AAAB25A03063D32700E5A8F6 /* App.xcconfig */,
+				AAAB25A13063D32700E5A8F6 /* Secrets.example.xcconfig */,
+				AAAB25A23063D32700E5A8F6 /* Info.plist */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -401,6 +414,7 @@
 		};
 		AAAB25793063D32700E5A8F6 /* Debug configuration for PBXNativeTarget "DigidentityIOSChallengue" */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAAB25A03063D32700E5A8F6 /* App.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -408,6 +422,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Config/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -431,6 +446,7 @@
 		};
 		AAAB257A3063D32700E5A8F6 /* Release configuration for PBXNativeTarget "DigidentityIOSChallengue" */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAAB25A03063D32700E5A8F6 /* App.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -438,6 +454,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Config/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
