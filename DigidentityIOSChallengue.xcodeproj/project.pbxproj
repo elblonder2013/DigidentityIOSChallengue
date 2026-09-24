@@ -33,13 +33,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		AAAB25903063D32700E5A8F6 /* Exceptions for "DigidentityIOSChallengue" folder in "DigidentityIOSChallengue" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				DI/.gitkeep,
-			);
-			target = AAAB25583063D32500E5A8F6 /* DigidentityIOSChallengue */;
-		};
 		AAAB25923063D32700E5A8F6 /* Exceptions for "DigidentityIOSChallengueUITests" folder in "DigidentityIOSChallengueUITests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -52,9 +45,6 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		AAAB255B3063D32500E5A8F6 /* DigidentityIOSChallengue */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				AAAB25903063D32700E5A8F6 /* Exceptions for "DigidentityIOSChallengue" folder in "DigidentityIOSChallengue" target */,
-			);
 			path = DigidentityIOSChallengue;
 			sourceTree = "<group>";
 		};
