@@ -16,7 +16,7 @@ struct CatalogItemViewData: Identifiable, Hashable, Sendable {
 
     init(item: CatalogItem, locale: Locale = .current) {
         id = item.id
-        imageURL = item.imageURL
+        imageURL = RenderableImageURL.make(from: item.imageURL)
         description = item.description
         confidenceText = item.confidence.formatted(.percent.precision(.fractionLength(0)).locale(locale))
     }
