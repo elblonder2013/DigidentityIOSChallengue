@@ -36,7 +36,6 @@
 		AAAB25903063D32700E5A8F6 /* Exceptions for "DigidentityIOSChallengue" folder in "DigidentityIOSChallengue" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Data/.gitkeep,
 				DI/.gitkeep,
 				Presentation/.gitkeep,
 			);
@@ -45,7 +44,6 @@
 		AAAB25913063D32700E5A8F6 /* Exceptions for "DigidentityIOSChallengueTests" folder in "DigidentityIOSChallengueTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Data/.gitkeep,
 				Presentation/.gitkeep,
 			);
 			target = AAAB25653063D32700E5A8F6 /* DigidentityIOSChallengueTests */;
