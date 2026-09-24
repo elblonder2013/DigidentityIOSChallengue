@@ -33,27 +33,25 @@
 		AAAB25903063D32700E5A8F6 /* Exceptions for "DigidentityIOSChallengue" folder in "DigidentityIOSChallengue" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"Data/.gitkeep",
-				"DI/.gitkeep",
-				"Domain/.gitkeep",
-				"Infrastructure/.gitkeep",
-				"Presentation/.gitkeep",
+				Data/.gitkeep,
+				DI/.gitkeep,
+				Infrastructure/.gitkeep,
+				Presentation/.gitkeep,
 			);
 			target = AAAB25583063D32500E5A8F6 /* DigidentityIOSChallengue */;
 		};
 		AAAB25913063D32700E5A8F6 /* Exceptions for "DigidentityIOSChallengueTests" folder in "DigidentityIOSChallengueTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"Data/.gitkeep",
-				"Domain/.gitkeep",
-				"Presentation/.gitkeep",
+				Data/.gitkeep,
+				Presentation/.gitkeep,
 			);
 			target = AAAB25653063D32700E5A8F6 /* DigidentityIOSChallengueTests */;
 		};
 		AAAB25923063D32700E5A8F6 /* Exceptions for "DigidentityIOSChallengueUITests" folder in "DigidentityIOSChallengueUITests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				".gitkeep",
+				.gitkeep,
 			);
 			target = AAAB256F3063D32700E5A8F6 /* DigidentityIOSChallengueUITests */;
 		};
